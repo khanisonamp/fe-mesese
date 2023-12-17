@@ -333,7 +333,7 @@ export default {
       };
       await axios
         .post(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/order`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/order`,
           data,
           {
             headers: {
@@ -395,7 +395,7 @@ export default {
       };
       await axios
         .post(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/order`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/order`,
           data,
           {
             headers: {

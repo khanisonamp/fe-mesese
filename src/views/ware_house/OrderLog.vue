@@ -230,7 +230,7 @@ export default {
       this.rows = [];
       await axios
         .get(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/log-product/month?month=`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/log-product/month?month=`,
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem("token_member")}`,
@@ -284,7 +284,7 @@ export default {
 
       await axios
         .get(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/log-product/month?month=${this.month}`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/log-product/month?month=${this.month}`,
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem("token_member")}`,

@@ -294,7 +294,7 @@ export default {
       };
       axios
         .post(
-          "https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/order-product/dashboard",
+          "https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/order-product/dashboard",
           data,
           {
             headers: {
@@ -354,7 +354,7 @@ export default {
         };
         await axios
           .post(
-            `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/order-product/dashboard`,
+            `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/order-product/dashboard`,
             data,
             {
               headers: {
@@ -526,7 +526,7 @@ export default {
 
       await axios
         .post(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/order-product`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/order-product`,
           payload,
           {
             headers: {

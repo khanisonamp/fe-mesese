@@ -120,7 +120,7 @@ export default {
 
       await axios
         .post(
-          "https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/login",
+          "https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/login",
           data
         )
         .then((resp) => {

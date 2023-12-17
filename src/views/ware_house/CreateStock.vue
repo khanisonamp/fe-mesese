@@ -327,7 +327,7 @@ export default {
       this.rows = [];
       await axios
         .get(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/product/log-create-stock`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/product/log-create-stock`,
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem("token_member")}`,
@@ -494,7 +494,7 @@ export default {
 
       await axios
         .post(
-          `https://api-medese-6a500594070c.herokuapp.com/ware-house/api/v1/product`,
+          `https://backend-medese-52b06b07483e.herokuapp.com/ware-house/api/v1/product`,
           data,
           {
             headers: {
