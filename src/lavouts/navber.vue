@@ -105,13 +105,13 @@
               >Receiving</v-list-item-title
             >
           </v-list-item>
-          <v-list-item @click="$router.push('/dispatching')">
+          <v-list-item @click="$router.push('/manual-order')">
             <v-list-item-icon>
               <v-icon>mdi-transit-transfer</v-icon>
             </v-list-item-icon>
 
             <v-list-item-title text :disabled="true"
-              >Dispatching</v-list-item-title
+              >Manual Order</v-list-item-title
             >
           </v-list-item>
           <!--<v-list-item @click="$router.push('/reports')">

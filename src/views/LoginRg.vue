@@ -84,10 +84,10 @@ export default {
       valid: true,
       loading: false,
 
-      //username: "",
-      //password: "",
-      username: "medese@admin",
-      password: "jq50@IQpN@",
+      username: "",
+      password: "",
+      //username: "medese@admin",
+      //password: "jq50@IQpN@",
       role: "",
 
       show3: false,

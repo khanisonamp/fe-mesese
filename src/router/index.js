@@ -4,7 +4,7 @@ import LoginRg from '../views/LoginRg.vue'
 import TransactionOrder from '../views/fulfillment/TransactionOrder.vue'
 import CreateStock from '../views/ware_house/CreateStock.vue'
 import DashBoard from '../views/ware_house/DashBoard.vue'
-import Dispatching from '../views/ware_house/Dispatching.vue'
+import ManualOrder from '../views/ware_house/ManualOrder.vue'
 import OrderLogs from '../views/ware_house/OrderLog.vue'
 import HomeView from '../views/ware_house/OrderReport.vue'
 import Report from '../views/ware_house/Report.vue'
@@ -50,9 +50,9 @@ const routes = [
     component: Report
   },
   {
-    path:'/dispatching',
-    name: 'dispatching',
-    component: Dispatching
+    path:'/manual-order',
+    name: 'manual-order',
+    component: ManualOrder
   },
   {
     path:'/order-logs',
